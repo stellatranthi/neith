@@ -1,0 +1,4 @@
+Git Basics.
+Go to github and create a repo.
+Copy your remote url
+Go to CLI and git clone //LINK//

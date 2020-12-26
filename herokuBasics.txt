@@ -1,0 +1,12 @@
+Deploy app:
+https://devcenter.heroku.com/articles/git
+1///
+create app on heroku
+connect to github on heroku
+
+CLI: heroku git:remote -a //NAME OF APP ON HEROKU//
+
+2///
+heroku create
+git push heroku //BRANCH NAME// 
+EX. git push heroku 

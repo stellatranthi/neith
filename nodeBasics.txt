@@ -1,0 +1,9 @@
+Starting a node project:
+npm init
+
+Downloading node modules:
+npm install
+
+Starting your node app:
+node //FILE NAME//
+Ex. node server 
