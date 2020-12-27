@@ -1,8 +1,9 @@
 const express = require("express");
 const router = express.Router();
+const mainController = require("../controllers/mainController");
 
 router.get('/home', (req,res) => {
-    res.send("<h1>Welcome to your new home</h1>")
+    mainController.loadProfile(req, res)
 });
 
 module.exports = router;

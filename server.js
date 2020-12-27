@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express')
 const bodyParser = require('body-parser');
 const mainRoutes = require('./routes/mainRoutes');
@@ -9,10 +10,10 @@ const PORT = process.env.PORT || 3000;
 app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
-app.use(express.static("public"))
+
 
 app.get('/', (req,res) => {
-    return res.send('<h1>Hello. Welcome to Neith</h1>');
+    return res.send(`<h1>Hello. Welcome to Neith</h1>`);
 });
 
 app.use(mainRoutes);

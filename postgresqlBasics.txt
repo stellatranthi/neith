@@ -1,0 +1,2 @@
+Create your database on Heroku or postgresql.org
+Create .env file local and name configuation vars on Heroku

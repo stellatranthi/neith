@@ -7,3 +7,6 @@ npm install
 Starting your node app:
 node //FILE NAME//
 Ex. node server 
+
+OR change scripts > start in package.json
+then npm start
